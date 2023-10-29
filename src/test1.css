@@ -1,0 +1,201 @@
+/*header*/
+
+.cv {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+  }
+  .full {
+    display: flex;
+    margin: 0;
+    padding: 20px;
+    background-color: #f0f0f0; /* Change to your desired background color */
+  }
+  .right {
+    margin-top: 10px ;
+    margin-bottom: 60px;
+    padding: 20px;
+    background-color: #f0f0f0;
+    border-right: 1px solid #ddd;}
+    
+  
+    .TITLE {
+  margin-top: 6rem; 
+  font-size: 25px; 
+  color: #000;
+  
+  }
+    span{
+      font-size: 45px;
+      font-weight: bold;
+      color: #000;
+    }
+    .TITLE h3{
+      color: #7e7d7d;
+  
+    }
+    .title {
+      text-align: center;
+      margin-top: 20px;
+    }
+    .title h1 {
+      font-size: 2rem;
+      color: #333;
+    }
+    .style-experience {
+      display: flex;
+      align-items: center; /* Pour aligner le texte vertical au centre */
+    }
+    
+    .style-experience hr {
+      flex: 1; /* Pour que la ligne horizontale prenne autant d'espace que possible */
+      border: none; /* Supprimer la bordure par défaut de la balise hr */
+      border-top: 1px solid #3f20d7; /* Ajouter une ligne horizontale en haut */
+      margin-right: 10px; /* Espace entre la ligne et le texte */
+      font-weight: bold;
+    }
+    
+    
+    .Summary h2,
+    .Experience h2,
+    .Education h2 {
+      font-size: 25px;
+      color: #3f20d7;
+      margin: 20px;
+    
+    }
+    
+    .Summary p,
+    .Experience h3,
+    .Experience p,
+    .Education h3,
+    .Education p {
+      font-size: 20px;
+      color: #000;
+      margin-top: 10px;
+    }
+    
+    .Experience h3,
+    .Education h3 {
+      font-size: 20px;
+      color: #000;
+      margin-top: 20px;
+    }
+    
+    .left {
+    background-color: rgb(231, 227, 227);
+  border-radius:1%; 
+   width: 150%;
+    padding: 30px;
+  }
+  img{
+    border-radius: 50%;
+    display: block;
+    margin: 0 auto;
+    padding: 30px;
+  }
+  .Skills {
+    background-color: rgb(170, 170, 236);
+    padding: 10px;
+  display: block;
+  margin: 0 auto;}
+  
+  .Skills h5{
+    font-size: 20px;
+  }
+  .Skills p{
+    font-size: 20px;
+  }
+  
+  .language{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .Language h2 {
+    font-size: 1.5rem;
+    color: #333;
+  }
+  
+  .Language ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+  }
+  
+  .Language li {
+    font-size: 1.2rem;
+    color: #666;
+    margin: 0 10px;
+  }
+  .Language li:first-child {
+    color: #FF5733; 
+  }
+  
+  .Language li:nth-child(2) {
+    color: #33FF77; 
+  }
+  
+  .Language li:nth-child(3) {
+    color: #3388FF;
+  }
+  
+  
+  .Contact{
+    padding-bottom: 25px;
+  }
+  
+  .Hobbies p {
+  font-size: 20px;
+  }
+  
+  
+  .progress {
+    height: 100%;
+  background-color: #007bff; /* Couleur de la barre de progression remplie */
+  width: 0; /* La largeur sera définie dynamiquement en pourcentage */
+  transition: width 1s ease; /* Animation de la progression */
+  }
+  .progress p{
+    font-size: 20px;
+  
+  }
+  
+  .progress-bar {
+    width: 100%;
+    height: 20px;
+    background-color: #ccc; /* Couleur de fond de la barre de progression */
+    border-radius: 5px; /* Coins arrondis */
+    overflow: hidden; /* Pour masquer le dépassement de la barre de progression */
+    margin: 10px;
+  
+  }
+  .FontAwesomeIcon{
+    gap: 20px;
+    display: flex;
+    align-items: center;
+  }
+  .FontAwesomeIcon p {
+    font-size: 20px;
+  }
+  .Language .arabe progress {
+    background-color: #FF5733; /* Rouge pour l'Arabe */
+  }
+  
+  .Language li:nth-child(2) progress {
+    background-color: #33FF77; /* Vert pour le Français */
+  }
+  
+  .Language li:nth-child(3) progress {
+    background-color: #3388FF; /* Bleu pour l'Anglais */
+  }
+  
+  
+  
